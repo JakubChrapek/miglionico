@@ -4,7 +4,7 @@
   "info": {
     "singularName": "global",
     "pluralName": "globals",
-    "displayName": "Global",
+    "displayName": "Globalne",
     "name": "global",
     "description": ""
   },
@@ -19,19 +19,8 @@
     }
   },
   "attributes": {
-    "siteName": {
+    "nazwaStrony": {
       "type": "string",
-      "required": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
-    "defaultSeo": {
-      "type": "component",
-      "repeatable": false,
-      "component": "shared.seo",
       "required": true,
       "pluginOptions": {
         "i18n": {
@@ -53,6 +42,17 @@
           "localized": true
         }
       }
+    },
+    "GlobalneSeo": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "ustawienia.seo",
+      "required": true
     }
   }
 }

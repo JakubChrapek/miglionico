@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "wersja_jezykowas",
+  "info": {
+    "singularName": "wersja-jezykowa",
+    "pluralName": "wersja-jezykowas",
+    "displayName": "Wersja językowa",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Jezyk": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "KodISO": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    }
+  }
+}

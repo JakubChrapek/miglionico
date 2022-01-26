@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_ustawienia_seos",
+  "info": {
+    "displayName": "Seo",
+    "icon": "bullhorn"
+  },
+  "options": {},
+  "attributes": {
+    "metaTytul": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "metaOpis": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "obrazekWyrozniajacy": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
